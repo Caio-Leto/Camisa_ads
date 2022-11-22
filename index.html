@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <form>
+    <form id="form">
         <h3><a href="camisa.html">Ver Camisa</a></h3>
         <h1>Camisa ADS</h1>
 
@@ -34,10 +34,28 @@
             <input required type="number" name="modulo" class="input">
         </label>
 
-        <button type="submit" class="login__button">Enviar</button>
+        <label class="login_label">
+            <span>Tamanho da Camisa( P, M, G, GG)</span>
+            <input required type="" name="tamanho" class="input">
+            
+            
+        </label>
+
+        <label class="login_label">
+            <p>sexo:</p>
+            <input class="" type="radio" name="opcao" VALUE="masc"> masc
+            <input class="" type="radio" name="opcao" VALUE="femi"> femi
+        </label>
+    
+            <button type="submit" class="login__button">Enviar</button>
+            <button type="reset">Limpar dados</button>
+        
     </form>
 
     <script src="./script.js"></script>
+    <script>
+        
+    </script>
 </body>
 
 </html>

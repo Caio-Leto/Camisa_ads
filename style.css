@@ -21,7 +21,7 @@ form {
     transform: translateY(-50%) translateX(-50%);
     margin: auto;
     width: 350px;
-    height: 500px;
+    height: 630px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -76,6 +76,10 @@ input:focus {
 .login_label .span-active {
     font-size: 0.7em;
     margin: 8px 10px;
+}
+
+button {
+    margin: 5px;
 }
 
 .login__button {
