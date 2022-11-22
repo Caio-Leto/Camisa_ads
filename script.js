@@ -30,6 +30,8 @@ const handleSubmit = (event) => {
             'Content-Type': 'application/json',
         },
         body: JSON.stringify({name, email, whatsapp, modulo})
+    }).then(() => {
+        alert('pedido feito com sucesso')
     })
 }
 
